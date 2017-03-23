@@ -1,4 +1,4 @@
-# browser_cookie
+# Browser Cookie
 *A simple, lightweight JavaScript API for handling browser cookies*
 
 ## Build Status Matrix
