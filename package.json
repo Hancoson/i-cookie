@@ -1,14 +1,13 @@
 {
-  "name": "browser-cookie",
+  "name": "i-cookie",
   "version": "0.1.1",
   "description": "A simple, lightweight JavaScript API for handling browser cookies",
-  "private": true,
+  "main": "i-cookie.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hancoson/browser-cookie.git"
+    "url": "https://github.com/Hancoson/i-cookie.git"
   },
   "devEngines": {
-    "node": "6.x || 7.x",
     "npm": "3.x || 4.x"
   },
   "author": "hancoson#163.com",

@@ -3,22 +3,22 @@
 
 ## Getting started
 
-Download `browser-cookie.js` file and include it in your HTML document, this will add a global object called `BrowserCookie`:
+Download `i-cookie.js` file and include it in your HTML document, this will add a global object called `iCookie`:
 
 ```
-<script src="browser-cookie.min.js"></script>
+<script src="i-cookie.js"></script>
 ```
 Or, you can 
 
 ```
-var BrowserCookie = require('browser-cookie.min.js');
+var iCookie = require('i-cookie.js');
 ```
 ## Write a cookie
 
 A cookie is set with a simple object as the first parameter:
 
 ```
-BrowserCookie.cookie("CookieKey", CookieValue, {expires: Date});
+iCookie.cookie("CookieKey", CookieValue, {expires: Date});
 ```
 The set `Date` demo:
 
@@ -30,12 +30,12 @@ curDate.setTime(curDate.getTime() + (1 * 60 * 1000)); //set 1 minute expire
 ## Read a cookie
 
 ```
-BrowserCookie.cookie("CookieKey")
+iCookie.cookie("CookieKey")
 ```
 ## Delete a cookie
 
 ```
-BrowserCookie.deleteCookie("CookieKey")
+iCookie.deleteCookie("CookieKey")
 ```
 
 ## Authors
