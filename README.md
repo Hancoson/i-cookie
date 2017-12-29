@@ -34,7 +34,7 @@ iCookie.cookie("CookieKey", CookieValue, {expires: Date});
 ```
 The set `Date` demo:
 
-```
+```js
 var curDate = new Date();
 curDate.setTime(curDate.getTime() + (1 * 60 * 1000)); //set 1 minute expire
 ```
