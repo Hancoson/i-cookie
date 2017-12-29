@@ -1,6 +1,7 @@
 # i-cookie
 [![GitHub license](https://img.shields.io/github/license/Hancoson/i-cookie.svg)](https://github.com/Hancoson/i-cookie/blob/master/LICENSE)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/Hancoson/i-cookie)
+[![npm version](https://img.shields.io/npm/v/i-cookie.svg)](https://github.com/Hancoson/i-cookie)
 
 *A simple, lightweight JavaScript API for handling browser cookies*
 
