@@ -40,12 +40,12 @@ curDate.setTime(curDate.getTime() + (1 * 60 * 1000)); //set 1 minute expire
 
 ## Read a cookie
 
-```
+```js
 iCookie.cookie("CookieKey")
 ```
 ## Delete a cookie
 
-```
+```js
 iCookie.deleteCookie("CookieKey")
 ```
 
