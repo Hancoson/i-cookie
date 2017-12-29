@@ -53,3 +53,4 @@ iCookie.deleteCookie("CookieKey")
 ## Authors
 
 [Hancoson](https://github.com/Hancoson)
+[MIT](https://github.com/Hancoson/i-cookie/blob/master/LICENSE)
