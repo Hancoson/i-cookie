@@ -1,6 +1,6 @@
 {
   "name": "i-cookie",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple, lightweight JavaScript API for handling browser cookies",
   "main": "i-cookie.js",
   "repository": {

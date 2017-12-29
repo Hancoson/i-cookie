@@ -1,4 +1,4 @@
-# Browser Cookie
+# i-cookie
 *A simple, lightweight JavaScript API for handling browser cookies*
 
 ## Getting started
