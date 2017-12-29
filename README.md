@@ -6,21 +6,29 @@
 
 ## Getting started
 
-Download `i-cookie.js` file and include it in your HTML document, this will add a global object called `iCookie`:
+Download `i-cookie` folder and include it in your HTML document, this will add a global object called `iCookie`:
+```
+<script src="./i-cookie/index.js"></script>
+```
+or run npm:
+```
+npm i i-cookie --save
+```
+and then:
+```js
+import iCookie from 'i-cookie'
+```
 
-```
-<script src="i-cookie.js"></script>
-```
-Or, you can 
-
-```
-var iCookie = require('i-cookie.js');
-```
 ## Write a cookie
 
 A cookie is set with a simple object as the first parameter:
 
-```
+```js
+/**
+* @param {key}
+* @param {value}
+* @param {option} set the `expires` 【non-mandatory】
+*/
 iCookie.cookie("CookieKey", CookieValue, {expires: Date});
 ```
 The set `Date` demo:
