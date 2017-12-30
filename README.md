@@ -9,11 +9,7 @@
 
 ## Getting started
 
-Download `i-cookie` folder and include it in your HTML document, this will add a global object called `iCookie`:
-```js
-<script src="./i-cookie/index.js"></script>
-```
-or run npm:
+run npm:
 ```
 npm i i-cookie --save
 ```
@@ -55,4 +51,5 @@ iCookie.deleteCookie("CookieKey")
 ## Authors
 
 [Hancoson](https://github.com/Hancoson)
+
 [MIT](https://github.com/Hancoson/i-cookie/blob/master/LICENSE)
