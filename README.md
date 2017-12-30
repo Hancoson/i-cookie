@@ -10,7 +10,7 @@
 ## Getting started
 
 Download `i-cookie` folder and include it in your HTML document, this will add a global object called `iCookie`:
-```
+```js
 <script src="./i-cookie/index.js"></script>
 ```
 or run npm:
